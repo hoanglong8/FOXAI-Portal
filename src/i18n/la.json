@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "ໜ້າຫຼັກ",
+    "dashboard": "ແດຊບອດ",
+    "solutions": "ວິທີແກ້ໄຂ",
+    "users": "ຜູ້ໃຊ້",
+    "analytics": "ການວິເຄາະ",
+    "settings": "ການຕັ້ງຄ່າ",
+    "logout": "ອອກຈາກລະບົບ",
+    "admin": "ຜູ້ດູແລລະບົບ"
+  },
+  "auth": {
+    "login": "ເຂົ້າສູ່ລະບົບ",
+    "loginSubtitle": "ເຂົ້າສູ່ລະບົບເພື່ອດຳເນີນການ",
+    "email": "ອີເມວ",
+    "emailPlaceholder": "admin@fox.ai.vn",
+    "password": "ລະຫັດຜ່ານ",
+    "passwordPlaceholder": "ໃສ່ລະຫັດຜ່ານ",
+    "loginButton": "ເຂົ້າສູ່ລະບົບ",
+    "loggingIn": "ກຳລັງເຂົ້າສູ່ລະບົບ...",
+    "invalidCredentials": "ອີເມວ ຫຼື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ",
+    "support": "ສະໜັບສະໜູນ: admin@fox.ai.vn",
+    "logoutSuccess": "ອອກຈາກລະບົບສຳເລັດ"
+  },
+  "solutions": {
+    "viewDemo": "ເບິ່ງການສາທິດ",
+    "accessDemo": "ເຂົ້າໃຊ້ການສາທິດ",
+    "watchVideo": "ເບິ່ງວິດີໂອ",
+    "download": "ດາວໂຫຼດ",
+    "allSectors": "ທັງໝົດ",
+    "searchPlaceholder": "ຄົ້ນຫາວິທີແກ້ໄຂ...",
+    "noResults": "ບໍ່ພົບຜົນການຄົ້ນຫາ",
+    "noResultsFor": "ບໍ່ພົບຜົນການຄົ້ນຫາສຳລັບ \"{query}\"",
+    "clearFilter": "ລ້າງຕົວກອງ",
+    "noSolutions": "ຍັງບໍ່ມີວິທີແກ້ໄຂ",
+    "noSolutionsDesc": "ເພີ່ມວິທີແກ້ໄຂທຳອິດເພື່ອເລີ່ມຕົ້ນ",
+    "addSolution": "ເພີ່ມວິທີແກ້ໄຂ",
+    "statuses": {
+      "draft": "ຮ່າງ",
+      "inactive": "ບໍ່ໃຊ້ງານ",
+      "active": "ໃຊ້ງານ"
+    },
+    "tabs": {
+      "documents": "ເອກະສານ",
+      "guide": "ຄູ່ມືການໃຊ້",
+      "changelog": "ປະຫວັດການປ່ຽນແປງ",
+      "feedback": "ຄຳຕິຊົມ"
+    },
+    "views": "ຄັ້ງທີ່ເບິ່ງ",
+    "detail": {
+      "sectors": "ຂະແໜງການ",
+      "tags": "Tags"
+    }
+  },
+  "documents": {
+    "preview": "ເບິ່ງຕົວຢ່າງ",
+    "openNewTab": "ເປີດໃນແຖບໃໝ່",
+    "loading": "ກຳລັງໂຫຼດເອກະສານ...",
+    "previewError": "ບໍ່ສາມາດສະແດງເອກະສານໂດຍກົງ.",
+    "previewErrorAction": "ກົດ 'ເປີດໃນແຖບໃໝ່' ເພື່ອເບິ່ງ.",
+    "noDocuments": "ຍັງບໍ່ມີເອກະສານ",
+    "noContent": "ຍັງບໍ່ມີເນື້ອຫາຄຳແນະນຳ",
+    "addDocument": "ເພີ່ມເອກະສານ",
+    "types": {
+      "presentation": "ການນຳສະເໜີ",
+      "user_guide": "ຄູ່ມືຜູ້ໃຊ້",
+      "technical": "ເຕັກນິກ"
+    },
+    "fields": {
+      "title": "ຫົວຂໍ້",
+      "type": "ປະເພດເອກະສານ",
+      "url": "ລິ້ງ",
+      "locale": "ພາສາ"
+    }
+  },
+  "changelog": {
+    "latestBadge": "ຫຼ້າສຸດ",
+    "latest": "ຫຼ້າສຸດ",
+    "empty": "ຍັງບໍ່ມີປະຫວັດ",
+    "noChangelog": "ຍັງບໍ່ມີປະຫວັດ",
+    "addChangelog": "ເພີ່ມ Changelog",
+    "version": "ເວີຊັ່ນ",
+    "releaseDate": "ວັນທີປ່ອຍ",
+    "content": "ເນື້ອຫາ",
+    "fields": {
+      "version": "ເວີຊັ່ນ (x.y.z)",
+      "releaseDate": "ວັນທີປ່ອຍ"
+    }
+  },
+  "comments": {
+    "noComments": "ຍັງບໍ່ມີຄຳຕິຊົມ",
+    "firstFeedback": "ສົ່ງຄຳຕິຊົມທຳອິດ",
+    "leaveComment": "ສົ່ງຄຳຕິຊົມ",
+    "submit": "ສົ່ງ",
+    "submitting": "ກຳລັງສົ່ງ...",
+    "placeholder": "ໃສ່ຄຳຕິຊົມ... (ສູງສຸດ 2000 ຕົວອັກສອນ)",
+    "selectType": "ເລືອກປະເພດ",
+    "deleteConfirm": "ລຶບຄຳຕິຊົມນີ້?",
+    "submitError": "ບໍ່ສາມາດສົ່ງໄດ້. ກະລຸນາລອງໃໝ່.",
+    "submitSuccess": "ສົ່ງຄຳຕິຊົມສຳເລັດ!",
+    "listComingSoon": "ຄຳຕິຊົມຈະສະແດງຫລັງຈາກໄດ້ຮັບການອະນຸມັດ.",
+    "types": {
+      "comment": "ຄຳເຫັນ",
+      "feedback": "ຄຳຕິຊົມ",
+      "bug": "ລາຍງານຂໍ້ຜິດພາດ",
+      "note": "ບັນທຶກ"
+    },
+    "statuses": {
+      "open": "ເປີດ",
+      "in_progress": "ກຳລັງດຳເນີນການ",
+      "resolved": "ແກ້ໄຂແລ້ວ",
+      "closed": "ປິດ"
+    }
+  },
+  "admin": {
+    "solutions": {
+      "new": "ເພີ່ມວິທີແກ້ໄຂ",
+      "edit": "ແກ້ໄຂວິທີແກ້ໄຂ",
+      "list": "ລາຍການວິທີແກ້ໄຂ",
+      "tabs": {
+        "general": "ຂໍ້ມູນທົ່ວໄປ",
+        "content": "ເນື້ອຫາພາສາ",
+        "documents": "ເອກະສານ",
+        "classification": "ການຈຳແນກ"
+      },
+      "fields": {
+        "slug": "Slug (URL)",
+        "slugHint": "ສ້າງອັດຕະໂນມັດຈາກຊື່ VI",
+        "status": "ສະຖານະ",
+        "demoUrl": "ລິ້ງສາທິດ *",
+        "videoUrl": "ລິ້ງວິດີໂອ",
+        "downloadUrl": "ລິ້ງດາວໂຫຼດ",
+        "logo": "ໂລໂກ / ໄອຄອນ",
+        "logoHint": "PNG, SVG ຫຼື WEBP, ສູງສຸດ 2MB"
+      },
+      "content": {
+        "name": "ຊື່ *",
+        "shortDesc": "ຄຳອະທິບາຍສັ້ນ",
+        "fullDesc": "ຄຳອະທິບາຍເຕັມ (Markdown)"
+      },
+      "classification": {
+        "sectors": "ຂະແໜງການ",
+        "tags": "Tags (ສູງສຸດ 10)",
+        "addTag": "ເພີ່ມ tag..."
+      },
+      "actions": {
+        "saveDraft": "ບັນທຶກຮ່າງ",
+        "publish": "ເຜີຍແຜ່",
+        "deactivate": "ປິດໃຊ້ງານ",
+        "activate": "ເປີດໃຊ້ງານ",
+        "delete": "ລຶບ",
+        "edit": "ແກ້ໄຂ"
+      },
+      "deleteConfirm": "ປິດໃຊ້ງານ?"
+    },
+    "users": {
+      "title": "ການຈັດການຜູ້ໃຊ້",
+      "create": "ສ້າງຜູ້ໃຊ້",
+      "edit": "ແກ້ໄຂຜູ້ໃຊ້",
+      "deactivate": "ປິດໃຊ້ງານ",
+      "fields": {
+        "email": "ອີເມວ",
+        "name": "ຊື່ເຕັມ",
+        "role": "ບົດບາດ",
+        "status": "ສະຖານະ",
+        "department": "ພະແນກ",
+        "language": "ພາສາເລີ່ມຕົ້ນ",
+        "createdAt": "ວັນທີສ້າງ"
+      },
+      "roles": {
+        "admin": "ຜູ້ດູແລລະບົບ",
+        "user": "ຜູ້ໃຊ້"
+      },
+      "statuses": {
+        "active": "ໃຊ້ງານ",
+        "inactive": "ບໍ່ໃຊ້ງານ"
+      },
+      "deactivateConfirm": "ປິດໃຊ້ງານບັນຊີນີ້?",
+      "selfDeactivateError": "ບໍ່ສາມາດປິດໃຊ້ງານບັນຊີຂອງຕົນເອງ"
+    },
+    "analytics": {
+      "title": "ການວິເຄາະ",
+      "totalSolutions": "ວິທີແກ້ໄຂທັງໝົດ",
+      "totalViews": "ຈຳນວນການເບິ່ງທັງໝົດ",
+      "activeUsers": "ຜູ້ໃຊ້ທີ່ໃຊ້ງານ",
+      "openFeedback": "ຄຳຕິຊົມທີ່ລໍຖ້າ",
+      "viewsLast30Days": "ການເບິ່ງ 30 ວັນຜ່ານມາ",
+      "topSolutions": "ວິທີແກ້ໄຂຍອດນິຍົມ",
+      "viewsBySector": "ການເບິ່ງຕາມຂະແໜງ",
+      "rank": "ອັນດັບ",
+      "solutionName": "ຊື່",
+      "views": "ການເບິ່ງ",
+      "sector": "ຂະແໜງ"
+    },
+    "comments": {
+      "title": "ການຈັດການຄຳຕິຊົມ",
+      "filterByType": "ກອງຕາມປະເພດ",
+      "filterByStatus": "ກອງຕາມສະຖານະ",
+      "updateStatus": "ອັບເດດສະຖານະ"
+    }
+  },
+  "common": {
+    "loading": "ກຳລັງໂຫຼດ...",
+    "error": "ເກີດຂໍ້ຜິດພາດ",
+    "retry": "ລອງໃໝ່",
+    "save": "ບັນທຶກ",
+    "cancel": "ຍົກເລີກ",
+    "delete": "ລຶບ",
+    "edit": "ແກ້ໄຂ",
+    "confirm": "ຢືນຢັນ",
+    "back": "ກັບຄືນ",
+    "next": "ຕໍ່ໄປ",
+    "previous": "ກ່ອນໜ້າ",
+    "search": "ຄົ້ນຫາ",
+    "filter": "ຕົວກອງ",
+    "clearFilter": "ລ້າງຕົວກອງ",
+    "page": "ໜ້າ",
+    "of": "ຂອງ",
+    "items": "ລາຍການ",
+    "noData": "ບໍ່ມີຂໍ້ມູນ",
+    "actions": "ການກະທຳ",
+    "required": "ຈຳເປັນ",
+    "optional": "ທາງເລືອກ",
+    "preview": "ເບິ່ງຕົວຢ່າງ",
+    "upload": "ອັບໂຫຼດ",
+    "networkError": "ຂາດການເຊື່ອມຕໍ່. ກະລຸນາກວດສອບອິນເຕີເນັດ.",
+    "forbidden": "ການເຂົ້າເຖິງຖືກປະຕິເສດ",
+    "forbiddenDesc": "ທ່ານບໍ່ມີສິດເຂົ້າເຖິງໜ້ານີ້.",
+    "notFound": "ບໍ່ພົບໜ້າ",
+    "notFoundDesc": "ໜ້າທີ່ທ່ານຄົ້ນຫາບໍ່ມີຢູ່.",
+    "serverError": "ຂໍ້ຜິດພາດຂອງເຊີບເວີ. ກະລຸນາລອງໃໝ່.",
+    "goHome": "ໄປໜ້າຫຼັກ",
+    "successSaved": "ບັນທຶກສຳເລັດ",
+    "successDeleted": "ລຶບສຳເລັດ",
+    "successCreated": "ສ້າງສຳເລັດ",
+    "confirmDelete": "ທ່ານແນ່ໃຈບໍ່ວ່າຕ້ອງການລຶບ?",
+    "languages": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "la": "ລາວ",
+      "zh": "中文"
+    }
+  }
+}

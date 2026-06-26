@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Trang chủ",
+    "dashboard": "Dashboard",
+    "solutions": "Giải pháp",
+    "users": "Người dùng",
+    "analytics": "Analytics",
+    "settings": "Cài đặt",
+    "logout": "Đăng xuất",
+    "admin": "Quản trị"
+  },
+  "auth": {
+    "login": "Đăng nhập",
+    "loginSubtitle": "Đăng nhập để tiếp tục",
+    "email": "Email",
+    "emailPlaceholder": "admin@fox.ai.vn",
+    "password": "Mật khẩu",
+    "passwordPlaceholder": "Nhập mật khẩu",
+    "loginButton": "Đăng nhập",
+    "loggingIn": "Đang đăng nhập...",
+    "invalidCredentials": "Sai email hoặc mật khẩu",
+    "support": "Hỗ trợ: admin@fox.ai.vn",
+    "logoutSuccess": "Đã đăng xuất"
+  },
+  "solutions": {
+    "viewDemo": "Xem demo",
+    "accessDemo": "Truy cập Demo",
+    "watchVideo": "Xem Video",
+    "download": "Tải về",
+    "allSectors": "Tất cả",
+    "searchPlaceholder": "Tìm kiếm giải pháp...",
+    "noResults": "Không tìm thấy kết quả",
+    "noResultsFor": "Không tìm thấy kết quả cho \"{query}\"",
+    "clearFilter": "Xoá bộ lọc",
+    "noSolutions": "Chưa có giải pháp nào",
+    "noSolutionsDesc": "Thêm giải pháp đầu tiên để bắt đầu",
+    "addSolution": "Thêm giải pháp",
+    "statuses": {
+      "draft": "Nháp",
+      "inactive": "Không hoạt động",
+      "active": "Hoạt động"
+    },
+    "tabs": {
+      "documents": "Tài liệu",
+      "guide": "Hướng dẫn",
+      "changelog": "Changelog",
+      "feedback": "Phản hồi"
+    },
+    "views": "lượt xem",
+    "detail": {
+      "sectors": "Khối",
+      "tags": "Tags"
+    }
+  },
+  "documents": {
+    "preview": "Xem trước",
+    "openNewTab": "Mở tab mới",
+    "loading": "Đang tải tài liệu...",
+    "previewError": "Tài liệu không thể hiển thị trực tiếp.",
+    "previewErrorAction": "Nhấn 'Mở tab mới' để xem.",
+    "noDocuments": "Chưa có tài liệu đính kèm",
+    "noContent": "Chưa có nội dung hướng dẫn",
+    "addDocument": "Thêm tài liệu",
+    "types": {
+      "presentation": "Thuyết trình",
+      "user_guide": "Hướng dẫn sử dụng",
+      "technical": "Kỹ thuật"
+    },
+    "fields": {
+      "title": "Tiêu đề",
+      "type": "Loại tài liệu",
+      "url": "Đường dẫn",
+      "locale": "Ngôn ngữ"
+    }
+  },
+  "changelog": {
+    "latestBadge": "Mới nhất",
+    "latest": "Mới nhất",
+    "empty": "Chưa có lịch sử phiên bản",
+    "noChangelog": "Chưa có lịch sử phiên bản",
+    "addChangelog": "Thêm changelog",
+    "version": "Phiên bản",
+    "releaseDate": "Ngày phát hành",
+    "content": "Nội dung",
+    "fields": {
+      "version": "Version (x.y.z)",
+      "releaseDate": "Ngày phát hành"
+    }
+  },
+  "comments": {
+    "noComments": "Chưa có phản hồi nào",
+    "firstFeedback": "Gửi phản hồi đầu tiên",
+    "leaveComment": "Gửi phản hồi",
+    "submit": "Gửi",
+    "submitting": "Đang gửi...",
+    "placeholder": "Nhập nội dung phản hồi... (tối đa 2000 ký tự)",
+    "selectType": "Chọn loại phản hồi",
+    "deleteConfirm": "Xoá phản hồi này?",
+    "submitError": "Không thể gửi phản hồi. Vui lòng thử lại.",
+    "submitSuccess": "Phản hồi đã được gửi thành công!",
+    "listComingSoon": "Danh sách phản hồi sẽ hiển thị sau khi được duyệt.",
+    "types": {
+      "comment": "Nhận xét",
+      "feedback": "Phản hồi",
+      "bug": "Báo lỗi",
+      "note": "Ghi chú"
+    },
+    "statuses": {
+      "open": "Mở",
+      "in_progress": "Đang xử lý",
+      "resolved": "Đã giải quyết",
+      "closed": "Đã đóng"
+    }
+  },
+  "admin": {
+    "solutions": {
+      "new": "Thêm giải pháp",
+      "edit": "Sửa giải pháp",
+      "list": "Danh sách giải pháp",
+      "tabs": {
+        "general": "Thông tin chung",
+        "content": "Nội dung ngôn ngữ",
+        "documents": "Tài liệu",
+        "classification": "Phân loại"
+      },
+      "fields": {
+        "slug": "Slug (URL)",
+        "slugHint": "Tự động tạo từ tên VI, có thể chỉnh sửa",
+        "status": "Trạng thái",
+        "demoUrl": "Link Demo *",
+        "videoUrl": "Link Video (YouTube/Vimeo)",
+        "downloadUrl": "Link Tải về",
+        "logo": "Logo / Icon",
+        "logoHint": "PNG, SVG hoặc WEBP, tối đa 2MB"
+      },
+      "content": {
+        "name": "Tên giải pháp *",
+        "shortDesc": "Mô tả ngắn (tối đa 200 ký tự)",
+        "fullDesc": "Mô tả đầy đủ (Markdown)"
+      },
+      "classification": {
+        "sectors": "Khối khách hàng",
+        "tags": "Tags (tối đa 10)",
+        "addTag": "Thêm tag..."
+      },
+      "actions": {
+        "saveDraft": "Lưu nháp",
+        "publish": "Xuất bản",
+        "deactivate": "Vô hiệu hoá",
+        "activate": "Kích hoạt",
+        "delete": "Xoá",
+        "edit": "Sửa"
+      },
+      "deleteConfirm": "Vô hiệu hoá giải pháp này?"
+    },
+    "users": {
+      "title": "Quản lý người dùng",
+      "create": "Tạo người dùng",
+      "edit": "Sửa thông tin",
+      "deactivate": "Vô hiệu hoá",
+      "fields": {
+        "email": "Email",
+        "name": "Họ và tên",
+        "role": "Vai trò",
+        "status": "Trạng thái",
+        "department": "Phòng ban",
+        "language": "Ngôn ngữ mặc định",
+        "createdAt": "Ngày tạo"
+      },
+      "roles": {
+        "admin": "Quản trị viên",
+        "user": "Người dùng"
+      },
+      "statuses": {
+        "active": "Đang hoạt động",
+        "inactive": "Đã vô hiệu hoá"
+      },
+      "deactivateConfirm": "Vô hiệu hoá tài khoản này?",
+      "selfDeactivateError": "Không thể vô hiệu hoá tài khoản của chính mình"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "totalSolutions": "Tổng giải pháp",
+      "totalViews": "Tổng lượt xem",
+      "activeUsers": "Người dùng hoạt động",
+      "openFeedback": "Phản hồi chờ xử lý",
+      "viewsLast30Days": "Lượt xem 30 ngày gần nhất",
+      "topSolutions": "Top giải pháp được xem",
+      "viewsBySector": "Phân bổ lượt xem theo khối",
+      "rank": "Hạng",
+      "solutionName": "Tên giải pháp",
+      "views": "Lượt xem",
+      "sector": "Khối"
+    },
+    "comments": {
+      "title": "Quản lý phản hồi",
+      "filterByType": "Lọc theo loại",
+      "filterByStatus": "Lọc theo trạng thái",
+      "updateStatus": "Cập nhật trạng thái"
+    }
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Có lỗi xảy ra",
+    "retry": "Thử lại",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "delete": "Xoá",
+    "edit": "Sửa",
+    "confirm": "Xác nhận",
+    "back": "Quay lại",
+    "next": "Tiếp theo",
+    "previous": "Trước",
+    "search": "Tìm kiếm",
+    "filter": "Bộ lọc",
+    "clearFilter": "Xoá bộ lọc",
+    "page": "Trang",
+    "of": "trong",
+    "items": "mục",
+    "noData": "Không có dữ liệu",
+    "actions": "Thao tác",
+    "required": "Bắt buộc",
+    "optional": "Tuỳ chọn",
+    "preview": "Xem trước",
+    "upload": "Tải lên",
+    "networkError": "Mất kết nối. Vui lòng kiểm tra internet.",
+    "forbidden": "Không có quyền truy cập",
+    "forbiddenDesc": "Bạn không có quyền truy cập trang này.",
+    "notFound": "Không tìm thấy trang",
+    "notFoundDesc": "Trang bạn đang tìm kiếm không tồn tại.",
+    "serverError": "Lỗi máy chủ. Vui lòng thử lại sau.",
+    "goHome": "Về trang chủ",
+    "successSaved": "Đã lưu thành công",
+    "successDeleted": "Đã xoá thành công",
+    "successCreated": "Đã tạo thành công",
+    "confirmDelete": "Bạn có chắc muốn xoá?",
+    "languages": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "la": "ລາວ",
+      "zh": "中文"
+    }
+  }
+}

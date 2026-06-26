@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "首页",
+    "dashboard": "仪表板",
+    "solutions": "解决方案",
+    "users": "用户",
+    "analytics": "分析",
+    "settings": "设置",
+    "logout": "退出登录",
+    "admin": "管理"
+  },
+  "auth": {
+    "login": "登录",
+    "loginSubtitle": "登录以继续",
+    "email": "电子邮件",
+    "emailPlaceholder": "admin@fox.ai.vn",
+    "password": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "loginButton": "登录",
+    "loggingIn": "正在登录...",
+    "invalidCredentials": "电子邮件或密码错误",
+    "support": "支持: admin@fox.ai.vn",
+    "logoutSuccess": "已成功退出"
+  },
+  "solutions": {
+    "viewDemo": "查看演示",
+    "accessDemo": "访问演示",
+    "watchVideo": "观看视频",
+    "download": "下载",
+    "allSectors": "全部",
+    "searchPlaceholder": "搜索解决方案...",
+    "noResults": "未找到结果",
+    "noResultsFor": "未找到 \"{query}\" 的结果",
+    "clearFilter": "清除筛选",
+    "noSolutions": "暂无解决方案",
+    "noSolutionsDesc": "添加第一个解决方案以开始",
+    "addSolution": "添加解决方案",
+    "statuses": {
+      "draft": "草稿",
+      "inactive": "已停用",
+      "active": "活跃"
+    },
+    "tabs": {
+      "documents": "文档",
+      "guide": "用户指南",
+      "changelog": "更新日志",
+      "feedback": "反馈"
+    },
+    "views": "次查看",
+    "detail": {
+      "sectors": "行业",
+      "tags": "标签"
+    }
+  },
+  "documents": {
+    "preview": "预览",
+    "openNewTab": "在新标签页中打开",
+    "loading": "正在加载文档...",
+    "previewError": "无法直接显示文档。",
+    "previewErrorAction": "点击\"在新标签页中打开\"查看。",
+    "noDocuments": "暂无附件文档",
+    "noContent": "暂无用户指南内容",
+    "addDocument": "添加文档",
+    "types": {
+      "presentation": "演示文稿",
+      "user_guide": "用户指南",
+      "technical": "技术文档"
+    },
+    "fields": {
+      "title": "标题",
+      "type": "文档类型",
+      "url": "链接",
+      "locale": "语言"
+    }
+  },
+  "changelog": {
+    "latestBadge": "最新",
+    "latest": "最新",
+    "empty": "暂无更新记录",
+    "noChangelog": "暂无更新记录",
+    "addChangelog": "添加更新日志",
+    "version": "版本",
+    "releaseDate": "发布日期",
+    "content": "内容",
+    "fields": {
+      "version": "版本号 (x.y.z)",
+      "releaseDate": "发布日期"
+    }
+  },
+  "comments": {
+    "noComments": "暂无反馈",
+    "firstFeedback": "成为第一个留下反馈的人",
+    "leaveComment": "留下反馈",
+    "submit": "提交",
+    "submitting": "提交中...",
+    "placeholder": "请输入反馈内容...（最多2000字符）",
+    "selectType": "选择反馈类型",
+    "deleteConfirm": "删除此评论？",
+    "submitError": "提交失败，请重试。",
+    "submitSuccess": "反馈提交成功！",
+    "listComingSoon": "评论经审核后将显示。",
+    "types": {
+      "comment": "评论",
+      "feedback": "反馈",
+      "bug": "错误报告",
+      "note": "备注"
+    },
+    "statuses": {
+      "open": "开放",
+      "in_progress": "处理中",
+      "resolved": "已解决",
+      "closed": "已关闭"
+    }
+  },
+  "admin": {
+    "solutions": {
+      "new": "添加解决方案",
+      "edit": "编辑解决方案",
+      "list": "解决方案列表",
+      "tabs": {
+        "general": "基本信息",
+        "content": "多语言内容",
+        "documents": "文档",
+        "classification": "分类"
+      },
+      "fields": {
+        "slug": "Slug（URL）",
+        "slugHint": "根据越南语名称自动生成，可编辑",
+        "status": "状态",
+        "demoUrl": "演示链接 *",
+        "videoUrl": "视频链接（YouTube/Vimeo）",
+        "downloadUrl": "下载链接",
+        "logo": "Logo / 图标",
+        "logoHint": "PNG、SVG 或 WEBP，最大 2MB"
+      },
+      "content": {
+        "name": "解决方案名称 *",
+        "shortDesc": "简短描述（最多200字符）",
+        "fullDesc": "完整描述（Markdown）"
+      },
+      "classification": {
+        "sectors": "行业",
+        "tags": "标签（最多10个）",
+        "addTag": "添加标签..."
+      },
+      "actions": {
+        "saveDraft": "保存草稿",
+        "publish": "发布",
+        "deactivate": "停用",
+        "activate": "激活",
+        "delete": "删除",
+        "edit": "编辑"
+      },
+      "deleteConfirm": "停用此解决方案？"
+    },
+    "users": {
+      "title": "用户管理",
+      "create": "创建用户",
+      "edit": "编辑用户",
+      "deactivate": "停用",
+      "fields": {
+        "email": "电子邮件",
+        "name": "全名",
+        "role": "角色",
+        "status": "状态",
+        "department": "部门",
+        "language": "默认语言",
+        "createdAt": "创建时间"
+      },
+      "roles": {
+        "admin": "管理员",
+        "user": "用户"
+      },
+      "statuses": {
+        "active": "活跃",
+        "inactive": "已停用"
+      },
+      "deactivateConfirm": "停用此账户？",
+      "selfDeactivateError": "无法停用自己的账户"
+    },
+    "analytics": {
+      "title": "数据分析",
+      "totalSolutions": "解决方案总数",
+      "totalViews": "总访问量",
+      "activeUsers": "活跃用户",
+      "openFeedback": "待处理反馈",
+      "viewsLast30Days": "近30天访问量",
+      "topSolutions": "热门解决方案",
+      "viewsBySector": "各行业访问量",
+      "rank": "排名",
+      "solutionName": "解决方案",
+      "views": "访问量",
+      "sector": "行业"
+    },
+    "comments": {
+      "title": "反馈管理",
+      "filterByType": "按类型筛选",
+      "filterByStatus": "按状态筛选",
+      "updateStatus": "更新状态"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "retry": "重试",
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "clearFilter": "清除筛选",
+    "page": "页",
+    "of": "共",
+    "items": "项",
+    "noData": "暂无数据",
+    "actions": "操作",
+    "required": "必填",
+    "optional": "可选",
+    "preview": "预览",
+    "upload": "上传",
+    "networkError": "网络连接失败，请检查网络。",
+    "forbidden": "访问被拒绝",
+    "forbiddenDesc": "您没有权限访问此页面。",
+    "notFound": "页面未找到",
+    "notFoundDesc": "您要查找的页面不存在。",
+    "serverError": "服务器错误，请稍后重试。",
+    "goHome": "返回首页",
+    "successSaved": "保存成功",
+    "successDeleted": "删除成功",
+    "successCreated": "创建成功",
+    "confirmDelete": "确定要删除吗？",
+    "languages": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "la": "ລາວ",
+      "zh": "中文"
+    }
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "nav": {
+    "home": "Home",
+    "dashboard": "Dashboard",
+    "solutions": "Solutions",
+    "users": "Users",
+    "analytics": "Analytics",
+    "settings": "Settings",
+    "logout": "Logout",
+    "admin": "Administration"
+  },
+  "auth": {
+    "login": "Sign In",
+    "loginSubtitle": "Sign in to continue",
+    "email": "Email",
+    "emailPlaceholder": "admin@fox.ai.vn",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "loginButton": "Sign In",
+    "loggingIn": "Signing in...",
+    "invalidCredentials": "Invalid email or password",
+    "support": "Support: admin@fox.ai.vn",
+    "logoutSuccess": "Signed out successfully"
+  },
+  "solutions": {
+    "viewDemo": "View Demo",
+    "accessDemo": "Access Demo",
+    "watchVideo": "Watch Video",
+    "download": "Download",
+    "allSectors": "All",
+    "searchPlaceholder": "Search solutions...",
+    "noResults": "No results found",
+    "noResultsFor": "No results found for \"{query}\"",
+    "clearFilter": "Clear filter",
+    "noSolutions": "No solutions yet",
+    "noSolutionsDesc": "Add the first solution to get started",
+    "addSolution": "Add Solution",
+    "statuses": {
+      "draft": "Draft",
+      "inactive": "Inactive",
+      "active": "Active"
+    },
+    "tabs": {
+      "documents": "Documents",
+      "guide": "User Guide",
+      "changelog": "Changelog",
+      "feedback": "Feedback"
+    },
+    "views": "views",
+    "detail": {
+      "sectors": "Sectors",
+      "tags": "Tags"
+    }
+  },
+  "documents": {
+    "preview": "Preview",
+    "openNewTab": "Open in new tab",
+    "loading": "Loading document...",
+    "previewError": "Document cannot be displayed directly.",
+    "previewErrorAction": "Click 'Open in new tab' to view.",
+    "noDocuments": "No documents attached",
+    "noContent": "No guide content available",
+    "addDocument": "Add Document",
+    "types": {
+      "presentation": "Presentation",
+      "user_guide": "User Guide",
+      "technical": "Technical"
+    },
+    "fields": {
+      "title": "Title",
+      "type": "Document Type",
+      "url": "URL",
+      "locale": "Language"
+    }
+  },
+  "changelog": {
+    "latestBadge": "Latest",
+    "latest": "Latest",
+    "empty": "No changelog entries",
+    "noChangelog": "No changelog entries",
+    "addChangelog": "Add Changelog",
+    "version": "Version",
+    "releaseDate": "Release Date",
+    "content": "Content",
+    "fields": {
+      "version": "Version (x.y.z)",
+      "releaseDate": "Release Date"
+    }
+  },
+  "comments": {
+    "noComments": "No feedback yet",
+    "firstFeedback": "Be the first to leave feedback",
+    "leaveComment": "Leave Feedback",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "placeholder": "Enter your feedback... (max 2000 characters)",
+    "selectType": "Select feedback type",
+    "deleteConfirm": "Delete this comment?",
+    "submitError": "Failed to submit. Please try again.",
+    "submitSuccess": "Your feedback has been submitted!",
+    "listComingSoon": "Comments will appear once approved.",
+    "types": {
+      "comment": "Comment",
+      "feedback": "Feedback",
+      "bug": "Bug Report",
+      "note": "Note"
+    },
+    "statuses": {
+      "open": "Open",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "closed": "Closed"
+    }
+  },
+  "admin": {
+    "solutions": {
+      "new": "Add Solution",
+      "edit": "Edit Solution",
+      "list": "Solutions List",
+      "tabs": {
+        "general": "General Info",
+        "content": "Language Content",
+        "documents": "Documents",
+        "classification": "Classification"
+      },
+      "fields": {
+        "slug": "Slug (URL)",
+        "slugHint": "Auto-generated from VI name, editable",
+        "status": "Status",
+        "demoUrl": "Demo URL *",
+        "videoUrl": "Video URL (YouTube/Vimeo)",
+        "downloadUrl": "Download URL",
+        "logo": "Logo / Icon",
+        "logoHint": "PNG, SVG or WEBP, max 2MB"
+      },
+      "content": {
+        "name": "Solution Name *",
+        "shortDesc": "Short Description (max 200 chars)",
+        "fullDesc": "Full Description (Markdown)"
+      },
+      "classification": {
+        "sectors": "Sectors",
+        "tags": "Tags (max 10)",
+        "addTag": "Add tag..."
+      },
+      "actions": {
+        "saveDraft": "Save Draft",
+        "publish": "Publish",
+        "deactivate": "Deactivate",
+        "activate": "Activate",
+        "delete": "Delete",
+        "edit": "Edit"
+      },
+      "deleteConfirm": "Deactivate this solution?"
+    },
+    "users": {
+      "title": "User Management",
+      "create": "Create User",
+      "edit": "Edit User",
+      "deactivate": "Deactivate",
+      "fields": {
+        "email": "Email",
+        "name": "Full Name",
+        "role": "Role",
+        "status": "Status",
+        "department": "Department",
+        "language": "Default Language",
+        "createdAt": "Created At"
+      },
+      "roles": {
+        "admin": "Administrator",
+        "user": "User"
+      },
+      "statuses": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "deactivateConfirm": "Deactivate this account?",
+      "selfDeactivateError": "Cannot deactivate your own account"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "totalSolutions": "Total Solutions",
+      "totalViews": "Total Views",
+      "activeUsers": "Active Users",
+      "openFeedback": "Open Feedback",
+      "viewsLast30Days": "Views — Last 30 Days",
+      "topSolutions": "Top Solutions",
+      "viewsBySector": "Views by Sector",
+      "rank": "Rank",
+      "solutionName": "Solution",
+      "views": "Views",
+      "sector": "Sector"
+    },
+    "comments": {
+      "title": "Feedback Management",
+      "filterByType": "Filter by type",
+      "filterByStatus": "Filter by status",
+      "updateStatus": "Update status"
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Retry",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "confirm": "Confirm",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "search": "Search",
+    "filter": "Filter",
+    "clearFilter": "Clear filter",
+    "page": "Page",
+    "of": "of",
+    "items": "items",
+    "noData": "No data",
+    "actions": "Actions",
+    "required": "Required",
+    "optional": "Optional",
+    "preview": "Preview",
+    "upload": "Upload",
+    "networkError": "Connection lost. Please check your internet.",
+    "forbidden": "Access Denied",
+    "forbiddenDesc": "You don't have permission to access this page.",
+    "notFound": "Page Not Found",
+    "notFoundDesc": "The page you're looking for doesn't exist.",
+    "serverError": "Server error. Please try again later.",
+    "goHome": "Go Home",
+    "successSaved": "Saved successfully",
+    "successDeleted": "Deleted successfully",
+    "successCreated": "Created successfully",
+    "confirmDelete": "Are you sure you want to delete?",
+    "languages": {
+      "vi": "Tiếng Việt",
+      "en": "English",
+      "la": "ລາວ",
+      "zh": "中文"
+    }
+  }
+}
